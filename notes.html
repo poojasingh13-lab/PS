@@ -1,0 +1,20 @@
+# Initialize Git
+git init
+
+# Add a file
+echo "Hello GitHub" > hello.txt
+
+# Add file to staging area
+git add hello.txt
+
+# Commit the file
+git commit -m "First commit"
+
+# Rename branch to main
+git branch -M main
+
+# Connect to GitHub repository
+git remote add origin <repository-url>
+
+# Upload files to GitHub
+git push -u origin main
